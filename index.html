@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@100;200;300;500&family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet" 
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+    <hr>
+    <form action="#" class="frame">
+        <fieldset>
+            <label><strong>FirstName:
+                <input type="text" class="context" name="fname"   required>
+            </label>
+            <label>LastName
+                <input type="text" class="context" name="lname"   required>
+            </label>
+
+            <label>Email:
+                <input type="email"  class="context"name="email"  required>
+            </label>
+
+            <label>Password:
+                <input type="password"  class="context" pattern="[a-z0-5]{8,0} name="password"  required>
+            </label>
+
+
+        </fieldset>
+
+        <fieldset>
+            <label for="">
+                <input class="inline" type="checkbox" name="terms" required>I accept the <a href="form.html">Terms and Conditions</a>
+            </label>
+
+        </fieldset>
+        <label for="">
+            <input type="submit" value="Submit">
+        </label>
+    </form>
+</body>
+</html>
